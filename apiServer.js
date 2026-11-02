@@ -395,7 +395,7 @@ app.get('/api/streams/:provider/:type/:tmdbId', async (req,res) => {
 });
 
 // const PORT = config.port;
-const PORT = Number(process.env.PORT) || 3000;
+const PORT = Number(process.env.PORT) || 8787;
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`API listening on port ${PORT}`);
